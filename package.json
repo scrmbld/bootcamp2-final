@@ -1,0 +1,27 @@
+{
+  "name": "bootcamp2-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrmbld/Jan-18-bootcamp2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scrmbld/Jan-18-bootcamp2/issues"
+  },
+  "homepage": "https://github.com/scrmbld/Jan-18-bootcamp2#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "jquery": "^2.2.4",
+    "modernizr": "^3.5.0",
+    "ruby": "^0.6.1"
+  }
+}

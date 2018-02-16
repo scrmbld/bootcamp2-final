@@ -1,0 +1,42 @@
+.nav-container{
+	width:100%;
+	padding-left:75%;
+}
+.nav-item{
+	height:7vh;
+	padding-top:2vh;
+	transition:0.5s;
+	text-align:center;
+	float:left;
+	width:25%;
+}
+.nav-item:hover{
+	color:white;
+	background-color:#000;
+	text-align:center;
+}
+.hero{
+	height:93vh;
+	border-bottom:1px solid black;
+	background-image:url(../images/SlideRule.svg);
+	background-size:cover;
+}
+.featurette{
+	height:35vh;
+	border:1px solid black;
+	padding-top:1px;
+}
+.featurette h2{
+	text-align:center;
+	margin-top:0px;
+}
+.featurette h2 a{
+	color:inherit;
+}
+.featurette h2 a:hover{
+	text-decoration:underline;
+	color:#c33;
+}
+.foot{
+	height:10vh;
+}
