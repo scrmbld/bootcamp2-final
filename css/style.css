@@ -1,8 +1,10 @@
 .nav-container{
 	background-color:#262626;
 }
-
-.nav-item{
+.nav{
+	padding-right:0px;
+}
+.nav-item a{
 	height:10vh;
 	padding-top:3vh;
 	transition:0.5s;
@@ -11,10 +13,11 @@
 	width:25%;
 	color:#e6e6e6;
 }
-.nav-item:hover{
+.nav-item a:hover{
 	color:#1a1a1a;
 	background-color:#f2f2f2;
 	text-align:center;
+	text-decoration:none;
 }
 .hero{
 	height:90vh;
@@ -23,9 +26,9 @@
 	background-size:cover;
 }
 .featurette{
-	height:35vh;
+	height:40vh;
 	border:1px solid black;
-	padding-top:1px;
+	padding-top:2vh;
 }
 .featurette h2{
 	text-align:center;
@@ -38,6 +41,11 @@
 	text-decoration:underline;
 	color:#c33;
 }
+.form-container{
+	padding-top:10vh;
+	padding-bottom:0px;
+}
 .foot{
 	height:10vh;
+	border-top:1px solid black;
 }

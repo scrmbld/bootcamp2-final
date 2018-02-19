@@ -24,12 +24,13 @@
 	padding-top:10vh;
 }
 .hero h2{
-	margin-left:30%;
+	margin-left:20%;
+	font-size:50px;
 }
 .featurette{
-	height:35vh;
+	height:45vh;
 	border:1px solid black;
-	padding-top:1px;
+	padding-top:3vh;
 }
 .featurette .img-placeholder{
 	background-color:green;
