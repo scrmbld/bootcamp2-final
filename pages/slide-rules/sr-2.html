@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width">
+<title>Shop</title>
+<meta charset="utf-8">
+<meta description="bootcamp 2 final project">
+
+<link rel="stylesheet" type="text/css" href="../../css/sr.css">
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<link rel="stylesheet" type="text/css" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../../css/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/slick/slick-theme.css"/>
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+	<div class="row nav-container">
+		<div class="col-md-9 logo-container">
+		</div>
+		<div class="col-md-3 nav">
+			<div class="nav-item"><a href="../../index.html">Home</a></div>
+			<div class="nav-item"><a href="../shop.html">Shop</a></div>
+			<div class="nav-item"><a href="../about.html">About</a></div>
+			<div class="nav-item"><a href="../contact.html">Contact</a></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 hero">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 hero-container">
+			<img class="img-responsive" src="../../images/sr-1.jpg">
+		</div>
+		<div class="col-md-6 sr-header">
+			<h2>Slide Rule 2</h2>
+			<p>&nbsp &nbsp &nbsp &nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.</p>
+			
+		<!--order button-->
+		<div class="col-md-8 col-md-offset-1">
+			<button class="btn btn-success">
+				<h2><a href="../order.html">Order Now</a></h2>
+			</button>
+		</div>		
+		</div>
+	</div>
+
+	<!--recommended slide rules-->
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 slick-container">
+			<div class="multiple-items">
+				<div class="col-md-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule2</p>
+				</div>
+				<div class="col-md-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule3</p>
+				</div>
+				<div class="col-md-4">
+					<img src="../../images/sr-3.jpg" class="img-responsive gallery-image">
+					<p>rule4</p>
+				</div>
+				<div class="col-md-4">
+					<img src="../../images/sr-2.jpg" class="img-responsive gallery-image">
+					<p>rule5</p>
+				</div>
+				<div class="col-md-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule6</p>
+				</div>
+				<div class="col-md-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule7</p>
+				</div>
+				<div class="col-md-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule8</p>
+				</div>
+				<div class="col-md-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule9</p>
+				</div>
+
+			</div>
+			<div class="single-item">
+				<div class="col-sm-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule1</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule3</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule4</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="../../images/sr-2.jpg" class="img-responsive gallery-image">
+					<p>rule5</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="../../images/sr-3.jpg" class="img-responsive gallery-image">
+					<p>rule6</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="../../images/sr-4.jpg" class="img-responsive gallery-image">
+					<p>rule7</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule8</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="../../images/sr-1.jpg" class="img-responsive gallery-image">
+					<p>rule9</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!--footer-->
+	<div class="row">
+		<div class="col-md-12 foot">
+			<div class="col-xs-2">
+				<p>&copy 2018</p>
+			</div>
+			<div class="col-xs-4 col-xs-offset-6"><p>contact information</p></div>
+		</div>
+	</div>
+</div>
+<!--loading bootstrap-->
+	<script type="text/javascript" src="../../node_modules/jquery/dist/jquery.js"></script>
+
+	<script type="text/javascript" src="../../node_modules/bootstrap/dist/js/bootstrap.js" ></script>
+
+	<script type="text/javascript" src="../../css/slick/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+  			$('.multiple-items').slick({
+  				infinite: true,
+  				slidesToShow: 3,
+  				slidesToScroll: 3
+			});
+			$('.single-item').slick();
+		});
+	</script>
+
+
+</body>
+
+</html>
