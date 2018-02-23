@@ -1,8 +1,7 @@
 {
   "name": "bootcamp2-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +23,7 @@
     "modernizr": "^3.5.0",
     "ruby": "^0.6.1",
     "slick-carousel": "^1.8.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
